@@ -39,7 +39,7 @@ div.app {
   background: white;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 50px) {
 
   .list-group-horizontal {
     flex-direction: column;
