@@ -38,3 +38,19 @@ div.app {
 .page-4, .page-5, .page-6 {
   background: white;
 }
+
+@media (min-width: 200px) {
+
+  .list-group-horizontal {
+    flex-direction: column;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .list-group-horizontal {
+    flex-direction: row;
+  }
+
+}
